@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Структура сайта</title>
+</head>
+<frameset rows="15%, 10%, 75%" border="0">
+    <!-- Шапка сайта -->
+    <frame src="header.html" name="header" scrolling="no">
+
+    <!-- Меню -->
+    <frame src="menu.html" name="menu" scrolling="no">
+
+    <!-- Основная часть: три колонки -->
+    <frameset cols="15%, 35%, 35%">
+        <!-- Левая колонка (mm) -->
+        <frame src="mm.html" name="mm" scrolling="auto">
+
+        <!-- Центральная колонка (form) -->
+        <frame src="form.html" name="form" scrolling="auto">
+
+        <!-- Правая колонка: разделена на две части -->
+        <frameset rows="50%, 50%">
+            <!-- Верхняя часть (розовая) -->
+            <frame src="pink.html" name="pink" scrolling="no">
+
+            <!-- Нижняя часть (зелёная) -->
+            <frame src="green.html" name="green" scrolling="no">
+        </frameset>
+    </frameset>
+</frameset>
+</html>
